@@ -34,8 +34,8 @@ If keys are pressed for a longer time, repetitions happen after 39 ms.
 
 ![bildschirmfoto 2016-12-16 um 23 12 31](https://cloud.githubusercontent.com/assets/2480569/21288353/3476534c-c481-11e6-8faf-3197cb1ed768.png)
 
-try to understand further why forked & authour was saying NEC2 protocol, take a look for screen scapture closely, manually decode those signal, it turns out that 186,85,76,/76, it was saying the ON/OFF button pressed for BOSE remote, however, it is 32bytes and raw data bytes in LSB first, here is another written for BOSE remote code and the functions, ![why is ON/OFF key] (https://github.com/probonopd/irdb/blob/master/codes/Bose/Lifestyle/186%2C85.csv) 
-![BOSE remote ON-OFF NEC2 procotol.JPG](BOSE remote ON-OFF NEC2 procotol.JPG)
+try to understand further why forked & authour was saying NEC2 protocol, take a look for screen scapture closely, manually decode those signal, it turns out that 186,85,76,/76, it was saying the ON/OFF button pressed for BOSE remote, however, it is 32bytes and raw data bytes in LSB first, here is another written for BOSE remote code and the functions, ![why 76 is for ON/OFF key] (https://github.com/probonopd/irdb/blob/master/codes/Bose/Lifestyle/186%2C85.csv) 
+![BOSE remote ON-OFF NEC2 procotol.JPG](https://github.com/xiaolaba/Lifestyle/blob/master/BOSE%20remote%20ON-OFF%20NEC2%20procotol.JPG)
 
 Zoom in a bit to see the difference between the signal modulated with 38 kHz and 33% duty cycle (yellow channel 4 below) and unmodulated at L2 near the transmitting antenna (orange channel 3 below).
 
