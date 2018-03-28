@@ -433,7 +433,7 @@ https://github.com/xiaolaba/Lifestyle/blob/master/BOSE_ls5iii_guide.pdf
 Except the main unit, remote/cable/speaker all lost during home reallocation, that why need to look at something IR and remote to build, as IR remote is more easy today with just Attiny13 or other MCU & programming, there is IR remote control project for other machine, also NEC2 procotol used and easy, https://wp.me/ph3BR-2aJ  
 
 the other person shows the unit and different PCB layout  
-https://github.com/xiaolaba/Lifestyle/blob/master/lifestyle_5_later_model.JPG
+![lifestyle_5_later_model.JPG](lifestyle_5_later_model.JPG)  
 ****edit by xiaolaba****   
 
 
