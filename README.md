@@ -1,3 +1,18 @@
+
+Upon reading the CD5 service manual, and clearly stated that, BOSE used Motorola MCU 68HC05C12 (U402) for host controller and receive the decoded remote signal, it is saying, RR101 receives and demodulates commands from the RF remote control. R138, C130, C129, R139, and D109 remove noise and shape the pulse. U106 squares up the pulse edges and converts them to 5V logic levels. the most important,   
+# This signal is then fed to U402, pin 37. C401 prevents any glitches at this pin.   
+
+ok, job almost done and more easy to include IR receiver, directly fed the output to 68HC05C12, pin 37 (TCAP named). RR101 used a Xtal 26.690MHz, perhaps the remote control was not that 27MHZ. ok go for IR, RF was the way too hard for me at the moment.  
+  
+my owned BOSE lifestyle 5 Music center was clearly labeled and manufactured in year 1995, of course not by my purchase, and most likely the more than 20 years old machine but still be not considered such that vintage machine, however the PCB for VFD & buttons has very different from its' successor, but the main component like IC devices used for internal function is almost identical to a service manual,  here is the copy could be used for reference or repair somehow, download from web.  
+https://github.com/xiaolaba/Lifestyle/blob/master/BOSE_Lifestyle_5_Service_Manual.pdf  
+https://github.com/xiaolaba/Lifestyle/blob/master/BOSE_ls5iii_guide.pdf  
+![BOSE_ls5iii_guide.pdf](BOSE_ls5iii_guide.pdf)  
+![BOSE_Lifestyle_5_Service_Manual.pdf](BOSE_Lifestyle_5_Service_Manual.pdf) 
+
+
+
+------------------------------------------------------------------------------------
 # 27.145 MHz BOSE Lifestyle
 
 Controlling 27.145 MHz BOSE Lifestyle with __ESP8266__ and __Raspberry Pi__
