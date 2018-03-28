@@ -34,13 +34,13 @@ If keys are pressed for a longer time, repetitions happen after 39 ms.
 
 ![bildschirmfoto 2016-12-16 um 23 12 31](https://cloud.githubusercontent.com/assets/2480569/21288353/3476534c-c481-11e6-8faf-3197cb1ed768.png)
 
-****xiaolaba****
+****xiaolaba****  
 try to understand further why forked & author was saying NEC2 protocol, take a look for screen captured above closely, manually decoded those signal, it turns out bit stream is that 186,85,76,/76, it was saying the ON/OFF button pressed with real BOSE remote, however, it is 32bytes & raw data bytes in LSB first, here is another written for BOSE remote code and thsoe key functions,  
 ![why 76 is for ON/OFF key](https://github.com/probonopd/irdb/blob/master/codes/Bose/Lifestyle/186%2C85.csv)  
 ![BOSE remote ON-OFF NEC2 procotol.JPG](BOSE%20remote%20ON-OFF%20NEC2%20procotol.JPG)  
 .  
 .  
-****xiaolaba****
+****xiaolaba****  
 
 Zoom in a bit to see the difference between the signal modulated with 38 kHz and 33% duty cycle (yellow channel 4 below) and unmodulated at L2 near the transmitting antenna (orange channel 3 below).
 
@@ -424,9 +424,14 @@ Now that we know that the music center operates with NEC2 codes but uses RF rath
 
 What I DID find, to my surprise, was an unpopulated 3-pin connector __J400__ close to the display, and, even more interestingly, mounting holes for a 3-pin device right __Q400__ in front of the PCB where the locical location for an infrared receiver would be, with silkscreen suggesting a device looking very much like an infrared receiver (e.g., Vishay TSOPxxxx). When I place one there, it matches up _perfectly_. Unfortunately the traces are on the other side of the PCB so I could not trace them. I did not take the boards out. Could it be that BOSE engineers designed the PCB for an optional infrared receiver which then was left out in the end to save a few cents or make for a cleaner front housing design? Can we put one in there?  
 
+****xiaolaba****  
+my owned BOSE lifestyle 5 Music center was clearly labeled and manufactured in year 1995, of course not by my purchase, and most likely the more than 20 years old machine but still be not considered such that vintage machine, however the PCB for VFD & buttons has very different from its' successor, but the main component like IC devices used for internal function is almost identical to a service manual,  here is the copy could be used for reference or repair somehow, download from web.  
+!(BOSE_Lifestyle_5_Service_Manual.pdf)[BOSE_Lifestyle_5_Service_Manual.pdf]  
+!(OSE_ls5iii_guide.pdf)[OSE_ls5iii_guide.pdf]  
+  
 
-my owned BOSE lifestyle 5 Music center was clearly labeled and manufactured in year 1995, of course not by my purchase, and most likely the more than 20 years old machine but still be not considered such that vintage machine, however the PCB for VFD & buttons has very different from its' successor, but the main component like IC devices used for internal function is almost identical to a service manual,  here is the copy could be used for reference or repair somehow. Except the main unit, remote/cable/speaker all lost during home reallocation, that why need to look at something IR and remote to build, as IR remote is more easy today with just Attiny13 or other MCU & programming, there is IR remote control project for other machine, also NEC2 procotol used and easy, (https://wp.me/ph3BR-2aJ)[https://wp.me/ph3BR-2aJ]
-
+Except the main unit, remote/cable/speaker all lost during home reallocation, that why need to look at something IR and remote to build, as IR remote is more easy today with just Attiny13 or other MCU & programming, there is IR remote control project for other machine, also NEC2 procotol used and easy, (https://wp.me/ph3BR-2aJ)[https://wp.me/ph3BR-2aJ]
+****xiaolaba****  
 
 
 ### Providing digital sound
