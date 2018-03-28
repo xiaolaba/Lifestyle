@@ -22,7 +22,7 @@ From the manual, I knew that the device was using 27.145 MHz for the remote cont
 ![raltron](https://cloud.githubusercontent.com/assets/2480569/21288809/e237bf4c-c48c-11e6-9115-039306378108.jpg)
 
  * BOSE PCB is __HCMK-C2X__
- * Main IC is __NEC D6121G 001 0207D3001__ ([data sheet](http://www.datenblatt-pdf.com/download.php?id=647260))
+ * Main IC is __NEC D6121G 001 0207D3001__ ([data sheet](http://www.datenblatt-pdf.com/download.php?id=647260)), or ([local_data sheet](uPD6121.pdf))
  * Ceramic Resonator is __CSB 455J__ (430-519 kHz according to data sheet; needed by the NEC D6121G)
  * Crystal is __RALTRON 27.145-30 02 CYH 04__
 
