@@ -1,4 +1,6 @@
 
+# 38 KHz IR remote BOSE Lifestyle
+
 Upon reading the CD5 service manual, and clearly stated that, BOSE used Motorola MCU 68HC05C12 (U402) for host controller and receive the decoded remote signal, it is saying, RR101 receives and demodulates commands from the RF remote control. R138, C130, C129, R139, and D109 remove noise and shape the pulse. U106 squares up the pulse edges and converts them to 5V logic levels. the most important,   
 # This signal is then fed to U402, pin 37. C401 prevents any glitches at this pin.   
 
