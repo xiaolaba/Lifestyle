@@ -426,11 +426,11 @@ What I DID find, to my surprise, was an unpopulated 3-pin connector __J400__ clo
 
 ****edit by xiaolaba****   
 my owned BOSE lifestyle 5 Music center was clearly labeled and manufactured in year 1995, of course not by my purchase, and most likely the more than 20 years old machine but still be not considered such that vintage machine, however the PCB for VFD & buttons has very different from its' successor, but the main component like IC devices used for internal function is almost identical to a service manual,  here is the copy could be used for reference or repair somehow, download from web.  
-!(BOSE_Lifestyle_5_Service_Manual.pdf)[https://github.com/xiaolaba/Lifestyle/blob/master/BOSE_Lifestyle_5_Service_Manual.pdf]    
-!(OSE_ls5iii_guide.pdf)[https://github.com/xiaolaba/Lifestyle/blob/master/BOSE_ls5iii_guide.pdf]  
+https://github.com/xiaolaba/Lifestyle/blob/master/BOSE_Lifestyle_5_Service_Manual.pdf  
+https://github.com/xiaolaba/Lifestyle/blob/master/BOSE_ls5iii_guide.pdf  
   
 
-Except the main unit, remote/cable/speaker all lost during home reallocation, that why need to look at something IR and remote to build, as IR remote is more easy today with just Attiny13 or other MCU & programming, there is IR remote control project for other machine, also NEC2 procotol used and easy, !(https://wp.me/ph3BR-2aJ)[https://wp.me/ph3BR-2aJ]  
+Except the main unit, remote/cable/speaker all lost during home reallocation, that why need to look at something IR and remote to build, as IR remote is more easy today with just Attiny13 or other MCU & programming, there is IR remote control project for other machine, also NEC2 procotol used and easy, https://wp.me/ph3BR-2aJ  
 ****edit by xiaolaba****   
 
 
