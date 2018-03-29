@@ -14,6 +14,11 @@ https://github.com/xiaolaba/Lifestyle/blob/master/BOSE_ls5iii_guide.pdf
 
 
 
+
+
+
+
+following is the original author and workpiece forked, except few words for my study and work out.  
 ------------------------------------------------------------------------------------
 # 27.145 MHz BOSE Lifestyle
 
