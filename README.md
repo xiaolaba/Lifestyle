@@ -10,7 +10,11 @@ my owned BOSE lifestyle 5 Music center was clearly labeled and manufactured in y
 https://github.com/xiaolaba/Lifestyle/blob/master/BOSE_Lifestyle_5_Service_Manual.pdf  
 https://github.com/xiaolaba/Lifestyle/blob/master/BOSE_ls5iii_guide.pdf  
 ![BOSE_ls5iii_guide.pdf](BOSE_ls5iii_guide.pdf)  
-![BOSE_Lifestyle_5_Service_Manual.pdf](BOSE_Lifestyle_5_Service_Manual.pdf) 
+![BOSE_Lifestyle_5_Service_Manual.pdf](BOSE_Lifestyle_5_Service_Manual.pdf)  
+.  
+.  
+.  
+.  
 
 
 
@@ -18,7 +22,7 @@ https://github.com/xiaolaba/Lifestyle/blob/master/BOSE_ls5iii_guide.pdf
 
 
 
-following is the original author and workpiece forked, except few words for my study and work out.  
+following is the original author and workpiece forked, except few words for my study and work out.  https://github.com/probonopd/Lifestyle  
 ------------------------------------------------------------------------------------
 # 27.145 MHz BOSE Lifestyle
 
